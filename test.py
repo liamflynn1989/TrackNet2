@@ -13,6 +13,20 @@ from collections import defaultdict
 import os
 
 
+import argparse
+import Models , LoadBatches
+from tensorflow.keras import optimizers
+from tensorflow.keras.utils import plot_model
+
+from tensorflow.python.client import device_lib
+print(device_lib.list_local_devices())
+
+import tensorflow as tf
+tf.test.is_gpu_available() # True/False
+
+
+
+
 direct = '~/'
 path = '0001.jpg'
 
