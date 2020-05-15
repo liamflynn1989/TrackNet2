@@ -6,6 +6,9 @@ from collections import defaultdict
 import os
 
 direct = 'C:/Users/liamf/Google Drive/ML/TrackNet/Code_Python3/'
+direct = '~/'
+
+
 #get input array
 def getInputArr( path ,path1 ,path2 , width , height):
     
