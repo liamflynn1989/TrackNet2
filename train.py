@@ -68,7 +68,7 @@ if load_weights != "-1":
 	m.load_weights("weights/model." + load_weights)
 
 #show TrackNet details, save it as TrackNet.png
-plot_model( m , show_shapes=True , to_file='TrackNet.png')
+#plot_model( m , show_shapes=True , to_file='TrackNet.png')
 
 #get TrackNet output height and width
 model_output_height = m.outputHeight

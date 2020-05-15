@@ -107,12 +107,12 @@ def InputOutputGenerator( images_path,  batch_size,  n_classes , input_height , 
 # img = cv2.imread(os.path.join(direct,path))
 # plt.imshow(img)
 
-
-# path1 = 'Dataset/Dataset/game4/Clip7/0016.jpg'
-# path2 = 'Dataset/Dataset/game4/Clip7/0015.jpg'
-# width = 360
-# height = 640
-# nClasses = 256
+path = 'Dataset/Dataset/game4/Clip7/groundtruth/Clip7/0177.png'
+path1 = 'Dataset/Dataset/game4/Clip7/0016.jpg'
+path2 = 'Dataset/Dataset/game4/Clip7/0015.jpg'
+width = 360
+height = 640
+nClasses = 256
 
 # #getInputArr( path ,path1 ,path2 , width , height)
 # getOutputArr( path , nClasses ,  width , height  )

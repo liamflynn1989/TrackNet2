@@ -28,9 +28,14 @@ tf.test.is_gpu_available() # True/False
 
 
 direct = '~/'
-path = '0001.jpg'
+path = 'Dataset/Dataset/game4/Clip7/0177.jpg'
 
 
 img = cv2.imread(os.path.join(direct,path), 1)
+ #resize it 
+img = cv2.resize(img, ( width , height ))
+#input must be float type
+img = img.astype(np.float32)
+
 
 print("success")
