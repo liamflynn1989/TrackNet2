@@ -93,26 +93,26 @@ def InputOutputGenerator( images_path,  batch_size,  n_classes , input_height , 
 		yield np.array(Input) , np.array(Output)
 
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
-fig = plt.figure(figsize=(10,5))
-ax = fig.add_subplot(111)
+# fig = plt.figure(figsize=(10,5))
+# ax = fig.add_subplot(111)
 
-from pathlib import Path
-
-
-path = 'Dataset/Dataset/game4/Clip7/groundtruth/Clip7/0177.png'
-
-#path = 'C:/Users/liamf/Google Drive/ML/TrackNet/Code_Python3/Dataset/Dataset/game4/Clip7/0017.jpg'
-img = cv2.imread(os.path.join(direct,path))
-plt.imshow(img)
+# from pathlib import Path
 
 
-path1 = 'Dataset/Dataset/game4/Clip7/0016.jpg'
-path2 = 'Dataset/Dataset/game4/Clip7/0015.jpg'
-width = 360
-height = 640
-nClasses = 256
+# path = 'Dataset/Dataset/game4/Clip7/groundtruth/Clip7/0177.png'
 
-#getInputArr( path ,path1 ,path2 , width , height)
-getOutputArr( path , nClasses ,  width , height  )
+# #path = 'C:/Users/liamf/Google Drive/ML/TrackNet/Code_Python3/Dataset/Dataset/game4/Clip7/0017.jpg'
+# img = cv2.imread(os.path.join(direct,path))
+# plt.imshow(img)
+
+
+# path1 = 'Dataset/Dataset/game4/Clip7/0016.jpg'
+# path2 = 'Dataset/Dataset/game4/Clip7/0015.jpg'
+# width = 360
+# height = 640
+# nClasses = 256
+
+# #getInputArr( path ,path1 ,path2 , width , height)
+# getOutputArr( path , nClasses ,  width , height  )
