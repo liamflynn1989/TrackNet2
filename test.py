@@ -24,7 +24,8 @@ print(device_lib.list_local_devices())
 import tensorflow as tf
 tf.test.is_gpu_available() # True/False
 
-
+height = 360
+width = 640
 
 
 direct = '~/'
