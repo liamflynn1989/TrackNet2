@@ -18,3 +18,5 @@ path = '0001.jpg'
 
 
 img = cv2.imread(os.path.join(direct,path), 1)
+
+print("success")
